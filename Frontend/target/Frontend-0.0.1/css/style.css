@@ -1,0 +1,214 @@
+body {
+	font: 15px Comic Sans MS, sans-serif;
+	line-height: 1.8;
+	background-color: #b0988c;
+}
+
+p {
+	font-size: 16px;
+}
+
+.margin {margin-bottom: 45px;}
+
+.crappy-bg-color {
+	background-color: #68463c; 
+}
+
+.bg-1 {
+	background-color: #eff5eb; 
+	color: #b0988c;
+	min-height: 100vh;
+}
+
+.bg-2 {
+	background-color: #eff5eb;
+	color:#b0988c;
+}
+
+
+
+.container-fluid {
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+
+.navbar {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border: 0;
+	border-radius: 0;
+	margin-bottom: 0;
+	letter-spacing: 5px;
+	background-color: #b0988c;
+}
+
+.navbar-nav  li a:hover {
+	color: yellow !important;
+}
+
+.navbar-nav  li a {
+	color: white !important;
+	font-weight: bold;
+}
+
+.navbar-toggle{
+	font-style:Helvetica;
+}
+
+.navbar-brand>img {
+	display: block;
+	border-radius: 50%;
+	margin-top:-30px;
+	margin-bottom:-10px;
+}
+
+.glyphicon glyphicon-search{
+	background-color:#b0988c;
+}
+
+.btn btn-default btn-lg{
+	background-color:#b0988c;
+}
+
+.btn btn-default btn-lg{
+	background-color:#b0988c;
+}
+
+.logo {
+	position: absolute;
+	left: 20px;
+	top: 20px;
+}
+
+.menu {
+	font-size: 15px;
+}
+
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  display:block;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+.projectInfo {
+  border-radius: 25px;
+  padding: 20px;
+  min-height: 100px;
+  text-align: left;
+  background-color: #b0988c;
+  color: white;
+  margin-bottom:15px;
+}
+.projectInfo ul {
+	list-style-type:none;
+}
+
+.projectInfo .btn { 
+     background: none;
+     border: none;
+     cursor: pointer; 
+}
+
+
+table {	
+	text-align:left;
+}
+
+th, td {
+  border-bottom: 1px solid #ddd;
+  padding-left:10px;
+}
+tr:nth-child(even){
+	background-color: #b0988c;
+    color:white;
+}
+table.sortable thead {
+	background-color: #b0988c;
+    color:white;
+    font-weight: bold;
+    cursor: default;
+}
+
+
+
+
+
+
+
+
+
+
+
+.dropbtn {
+  background-color: #b0988c;
+  color: white;
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn a {
+  color: white;
+  text-decoration: none;
+}
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  right: 0;
+  background-color: #f9f9f9;
+  min-width: 240px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 8px 12px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropbtn {background-color: #68463c;}
